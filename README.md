@@ -3,7 +3,7 @@
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
-[![Instagram Dev1lsconf](https://img.shields.io/instagram/followers/dev1lsconf?label=follow&style=social)](https://instagram.com/dev1lsconf)
+[![Instagram Dev1lsconf](https://img.shields.io/badge/instagram-erika.cafezin-red)](https://instagram.com/dev1lsconf)
 
 
 <h3> 🤝🏻 Contact </h3>
