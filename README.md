@@ -10,8 +10,7 @@
 <p align="center">
 <a href="https://dev1ls.online" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.dev1ls.online.np-blue?style=flat&logo=google-chrome"></a>
 <a href="mailto:dev1lsconf@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-dev1lsconf@gmail.com-blue?style=flat&logo=gmail"></a>
-<a href="https://www.instagram.com/dev1lsconf/"><img src="https://img.shields.io/badge/instagram-erika.cafezin-red"></a>
-
+<a href="https://instagram.com/dev1lsconf" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instragram-www.instagram.com/dev1lsconf.np-blue?style=flat&logo=instagram"></a>
 </p>
 
 <!--
