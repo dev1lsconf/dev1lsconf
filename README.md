@@ -7,15 +7,20 @@
 ![Discord](https://img.shields.io/discord/959733145106784266)
 
 
+#### 👨🏻‍💻 Mi Experiencia:
+
+<a src="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript.png"/></a>
+<a src="https://reactjs.org/"><img src="https://img.icons8.com/color/48/000000/react-native.png"/></a>
+<a src="https://nodejs.org/"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/></a>
+<a src="https://www.docker.com/"><img src="https://img.icons8.com/color/48/000000/docker.png"/></a>
+<a src="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/color/48/000000/visual-studio.png"/></a>
+<a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/npm.png"/></a>
+<a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
+<a src="https://www.w3schools.com/css/"><img src="https://img.icons8.com/color/48/000000/css3.png"/></a>
+<a src="https://www.w3schools.com/html/"><img src="https://img.icons8.com/color/48/000000/html-5.png"/></a>
 
 
-### 💻 Mi Experiencia:
-- ReactJS 
-- NodeJS
-- HTML & CSS
-
-
-<h3> 🤝🏻 Contact </h3>
+<h3> 🤝🏻 Contacto: </h3>
 
 <p align="center">
 <a href="https://dev1ls.online" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.dev1ls.online.np-blue?style=flat&logo=google-chrome"></a>
