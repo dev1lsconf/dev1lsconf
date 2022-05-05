@@ -21,7 +21,7 @@
 #### Revisa mis Publicaciones:
 
 🔊 [Dev1ls blog](https://blog.dev1ls.online)
-
+🔭 [Tumblr](https://dev1lsconf.tumblr.com)
 
 <h3> 🤝🏻 Contacto: </h3>
 
