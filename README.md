@@ -1,4 +1,6 @@
 <h1> Hola, Soy Dev1ls ⚡ </h1>
+- Full Stack Web Development * Progress 30% *
+- Cybersecurity and Ethical Hacking * Progress 60% *
 
 <img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="530">
 
@@ -23,7 +25,7 @@
 - 🔊 [Dev1ls blog](https://blog.dev1ls.online)
 - 😄 [Tumblr](https://dev1lsconf.tumblr.com)
 
-<h3> 🤝🏻 Contacto: </h3>
+<h3>📫 Contacto: </h3>
 
 <p align="center">
 <a href="https://dev1ls.online" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.dev1ls.online.np-blue?style=flat&logo=google-chrome"></a>
