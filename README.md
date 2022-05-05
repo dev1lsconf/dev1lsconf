@@ -10,7 +10,7 @@
 - Cybersecurity and Ethical Hacking * Progress 60% *
 
 
-#### #🏻‍💻 Mi Experiencia:
+#### 💻 Mi Experiencia:
 
 <a src="https://reactjs.org/"><img src="https://img.icons8.com/color/48/000000/react-native.png"/></a>
 <a src="https://nodejs.org/"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/></a>
