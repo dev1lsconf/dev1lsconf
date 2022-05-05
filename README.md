@@ -1,6 +1,6 @@
 <h1> Hola, Soy Dev1ls ⚡ </h1>
 
-<img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="330">
+<img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="530">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
@@ -19,9 +19,10 @@
 <a src="https://www.w3schools.com/css/"><img src="https://img.icons8.com/color/48/000000/css3.png"/></a>
 <a src="https://www.w3schools.com/html/"><img src="https://img.icons8.com/color/48/000000/html-5.png"/></a>
 
-#### Revisa mis Post:
+#### Revisa mis Publicaciones:
 
 🔊 [Dev1ls blog](https://blog.dev1ls.online)
+
 
 <h3> 🤝🏻 Contacto: </h3>
 
