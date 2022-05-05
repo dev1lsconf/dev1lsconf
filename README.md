@@ -1,4 +1,6 @@
 <h1> Hola, Soy Dev1ls ⚡ </h1>
+
+#### 📖 Sigo aprendiendo:
 - Full Stack Web Development * Progress 30% *
 - Cybersecurity and Ethical Hacking * Progress 60% *
 
