@@ -1,4 +1,5 @@
-<h1> Hola, Soy Dev1ls! <img src="https://media.giphy.com/media/8A78emb8eQsPknYabX/giphy.gif" width="100"></h1>
+<h1> Hola, Soy Dev1ls ⚡ </h1>
+
 <img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="330">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
