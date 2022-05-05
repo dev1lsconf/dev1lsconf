@@ -1,14 +1,13 @@
 <h1> Hola, Soy Dev1ls ⚡ </h1>
-
-#### 📖 Sigo aprendiendo:
-- Full Stack Web Development * Progress 30% *
-- Cybersecurity and Ethical Hacking * Progress 60% *
-
 <img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="530">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
 ![Discord](https://img.shields.io/discord/959733145106784266)
+
+#### 📖 Sigo aprendiendo:
+- Full Stack Web Development * Progress 30% *
+- Cybersecurity and Ethical Hacking * Progress 60% *
 
 
 #### 👨🏻‍💻 Mi Experiencia:
