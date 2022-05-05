@@ -6,6 +6,12 @@
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
 [![GitHub Thaiane](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
 
+<h3> 🤝🏻 Contact </h3>
+
+<p align="center">
+<a href="https://dev1ls.online" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.dev1ls.online.np-blue?style=flat&logo=google-chrome"></a>
+<a href="mailto:dev1lsconf@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-dev1lsconf@gmail.com-blue?style=flat&logo=gmail"></a>
+</p>
 
 <!--
 **dev1lsconf/dev1lsconf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
