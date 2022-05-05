@@ -1,10 +1,9 @@
-### 🔭 I’m currently working on ...
-
-<h2> Hola, Soy Dev1ls! <img src="https://media.giphy.com/media/8A78emb8eQsPknYabX/giphy.gif" width="50"></h2>
+<h1> Hola, Soy Dev1ls! <img src="https://media.giphy.com/media/8A78emb8eQsPknYabX/giphy.gif" width="70"></h1>
 <img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="230">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
 [![GitHub Thaiane](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
+
 
 <h3> 🤝🏻 Contact </h3>
 
