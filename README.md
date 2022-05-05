@@ -19,6 +19,9 @@
 <a src="https://www.w3schools.com/css/"><img src="https://img.icons8.com/color/48/000000/css3.png"/></a>
 <a src="https://www.w3schools.com/html/"><img src="https://img.icons8.com/color/48/000000/html-5.png"/></a>
 
+#### Revisa mis Post:
+
+🔊 [Dev1ls blog](https://blog.dev1ls.online)
 
 <h3> 🤝🏻 Contacto: </h3>
 
@@ -29,7 +32,8 @@
 </p>
 
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
+
+![visitantes](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
 
 <!--
 **dev1lsconf/dev1lsconf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
