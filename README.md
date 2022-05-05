@@ -21,6 +21,8 @@
 <a href="https://instagram.com/dev1lsconf" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instragram-www.instagram.com/dev1lsconf.np-blue?style=flat&logo=instagram"></a>
 </p>
 
+<iframe src="https://discord.com/widget?id=959733145106784266&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
 
 <!--
