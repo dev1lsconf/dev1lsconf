@@ -1,8 +1,9 @@
-<h1> Hola, Soy Dev1ls! <img src="https://media.giphy.com/media/8A78emb8eQsPknYabX/giphy.gif" width="70"></h1>
-<img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="230">
+<h1> Hola, Soy Dev1ls! <img src="https://media.giphy.com/media/8A78emb8eQsPknYabX/giphy.gif" width="100"></h1>
+<img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="330">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1sconf)
-[![GitHub Thaiane](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
+[![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
+[![Instagram Dev1lsconf](https://img.shields.io/instagram/followers/dev1lsconf?label=follow&style=social)](https://instagram.com/dev1lsconf)
 
 
 <h3> 🤝🏻 Contact </h3>
@@ -12,7 +13,6 @@
 <a href="mailto:dev1lsconf@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-dev1lsconf@gmail.com-blue?style=flat&logo=gmail"></a>
 </p>
 
-<a href="https://www.instagram.com/dev1lsconf" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 
 <!--
 **dev1lsconf/dev1lsconf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
