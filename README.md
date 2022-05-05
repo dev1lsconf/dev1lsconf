@@ -6,8 +6,8 @@
 ![Discord](https://img.shields.io/discord/959733145106784266)
 
 #### 📖 Sigo aprendiendo:
-- Full Stack Web Development * Progress 30% *
-- Cybersecurity and Ethical Hacking * Progress 60% *
+- Full Stack Web Development * 30% *
+- Cybersecurity and Ethical Hacking * 60% *
 
 
 #### 💻 Mi Experiencia:
