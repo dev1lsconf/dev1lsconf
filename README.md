@@ -12,13 +12,17 @@
 
 #### 💻 Mi Experiencia:
 
-<a src="https://reactjs.org/"><img src="https://img.icons8.com/color/48/000000/deno.png"/></a>
+<a src="https://firebase.com/"><img src="https://img.icons8.com/color/48/000000/firebase.png"/></a>
+<a src="https://nextjs.com/"><img src="https://img.icons8.com/color/48/000000/nextjs.png"/></a>
+<a src="https://deno.land/"><img src="https://img.icons8.com/color/48/000000/deno.png"/></a>
 <a src="https://nodejs.org/"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/></a>
 <a src="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/color/48/000000/visual-studio.png"/></a>
 <a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/npm.png"/></a>
-<a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/typescript.png"/></a>
+<a src="https://www.typescript.com/"><img src="https://img.icons8.com/color/48/000000/typescript.png"/></a>
 <a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
-<a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/git.png"/></a>
+<a src=""><img src="https://img.icons8.com/color/48/000000/git.png"/></a>
+<a src=""><img src="https://img.icons8.com/color/48/000000/html.png"/></a>
+<a src=""><img src="https://img.icons8.com/color/48/000000/css.png"/></a>
 
 
 #### Revisa mis Publicaciones:
