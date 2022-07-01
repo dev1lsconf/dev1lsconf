@@ -22,7 +22,7 @@
 <a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
 <a src=""><img src="https://img.icons8.com/color/48/000000/git.png"/></a>
 <a src=""><img src="https://img.icons8.com/color/48/000000/html.png"/></a>
-<a src=""><img src="https://img.icons8.com/color/48/000000/css.png"/></a>
+
 
 
 #### Revisa mis Publicaciones:
