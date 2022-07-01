@@ -18,6 +18,8 @@
 <a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/npm.png"/></a>
 <a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/typescript.png"/></a>
 <a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
+<a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/git.png"/></a>
+
 
 #### Revisa mis Publicaciones:
 
