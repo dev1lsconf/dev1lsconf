@@ -8,15 +8,15 @@
 
 #### 📖 Sigo aprendiendo:
 - Full Stack Web Development * 30% *
-- Cybersecurity and Ethical Hacking * 60% *
 
 
 #### 💻 Mi Experiencia:
 
-<a src="https://reactjs.org/"><img src="https://img.icons8.com/color/48/000000/react-native.png"/></a>
+<a src="https://reactjs.org/"><img src="https://img.icons8.com/color/48/000000/deno.png"/></a>
 <a src="https://nodejs.org/"><img src="https://img.icons8.com/color/48/000000/nodejs.png"/></a>
 <a src="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/color/48/000000/visual-studio.png"/></a>
 <a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/npm.png"/></a>
+<a src="https://www.npmjs.com/"><img src="https://img.icons8.com/color/48/000000/typescript.png"/></a>
 <a src="https://github.com/"><img src="https://img.icons8.com/color/48/000000/github--v1.png"/></a>
 
 #### Revisa mis Publicaciones:
