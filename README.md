@@ -1,14 +1,9 @@
 <h1>Dev1ls ⚡ </h1>
 <h2>in ❤️ with Unix </h2>
-<img align='right' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="530">
 
 [![Twitter: Dev1lsconf](https://img.shields.io/twitter/follow/dev1lsconf?style=social)](https://twitter.com/dev1lsconf)
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
 ![Discord](https://img.shields.io/discord/959733145106784266)
-
-
-
-
 
 
 
@@ -18,11 +13,9 @@
 <h3>📫</h3>
 
 <p align="center">
-<a href="https://dev1ls.online" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-www.dev1ls.online.np-blue?style=flat&logo=google-chrome"></a>
 <a href="mailto:dev1lsconf@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-dev1lsconf@gmail.com-blue?style=flat&logo=gmail"></a>
 <a href="https://instagram.com/dev1lsconf" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instragram-www.instagram.com/dev1lsconf.np-blue?style=flat&logo=instagram"></a>
 </p>
-
 
 
 ![visitantes](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
