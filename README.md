@@ -8,7 +8,8 @@
 
 
 - 🔊 [Dev1ls blog](https://blog.dev1ls.online)
-- 😄 [Tumblr](https://dev1lsconf.tumblr.com)
+- 😄 [Gopher](gopher://sdf.org/1/users/dev1ls)
+- @ [Fediverse](@dev1ls@mastodon.sdf.org)
 
 <h3>📫</h3>
 
