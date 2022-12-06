@@ -8,7 +8,7 @@
 
 
 - [Dev1ls blog](https://blog.dev1ls.online)
-- [Gopher](gopher://sdf.org/1/users/dev1ls)
+- [Gopher](https://gopherproxy.meulie.net/sdf.org/1/users/dev1ls)
 - [Fediverse](https://mastodon.sdf.org/@dev1ls)
 
 
