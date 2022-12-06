@@ -7,16 +7,10 @@
 
 
 
-- 🔊 [Dev1ls blog](https://blog.dev1ls.online)
-- 😄 [Gopher](gopher://sdf.org/1/users/dev1ls)
-- @ [Fediverse](@dev1ls@mastodon.sdf.org)
+- [Dev1ls blog](https://blog.dev1ls.online)
+- [Gopher](gopher://sdf.org/1/users/dev1ls)
+- [Fediverse](https://mastodon.sdf.org/@dev1ls)
 
-<h3>📫</h3>
-
-<p align="center">
-<a href="mailto:dev1lsconf@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-dev1lsconf@gmail.com-blue?style=flat&logo=gmail"></a>
-<a href="https://instagram.com/dev1lsconf" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instragram-www.instagram.com/dev1lsconf.np-blue?style=flat&logo=instagram"></a>
-</p>
 
 
 ![visitantes](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
