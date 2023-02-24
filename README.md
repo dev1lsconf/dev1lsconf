@@ -6,7 +6,7 @@
 ![Discord](https://img.shields.io/discord/959733145106784266)
 
 
-
+- [Dev1ls home](http://dev1ls.sdf.org)
 - [Dev1ls blog](https://blog.dev1ls.online)
 - [Gopher](https://gopherproxy.meulie.net/sdf.org/1/users/dev1ls)
 - [Fediverse](https://mastodon.sdf.org/@dev1ls)
