@@ -5,6 +5,7 @@
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
 ![Discord](https://img.shields.io/discord/959733145106784266)
 
+[![its unix system](https://media1.giphy.com/media/dDwicM3uFUqfC/giphy.gif?cid=ecf05e476bavg8yxt9edsggebvguucyt3oaqsckojmwmbgu5&rid=giphy.gif&ct=g)]
 
 - [Dev1ls home](http://dev1ls.sdf.org)
 - [Dev1ls blog](https://blog.dev1ls.online)
