@@ -7,10 +7,9 @@
 
 [![its unix system](https://media1.giphy.com/media/dDwicM3uFUqfC/giphy.gif?cid=ecf05e476bavg8yxt9edsggebvguucyt3oaqsckojmwmbgu5&rid=giphy.gif&ct=g)]
 
-- [Dev1ls home](http://dev1ls.sdf.org)
+- [Dev1ls info](http://dev1ls.sdf.org)
 - [Dev1ls blog](https://blog.dev1ls.online)
 - [Gopher](https://gopherproxy.meulie.net/sdf.org/1/users/dev1ls)
-- [Fediverse](https://mastodon.sdf.org/@dev1ls)
 
 
 
