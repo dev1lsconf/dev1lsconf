@@ -5,13 +5,18 @@
 [![GitHub Dev1lsconf](https://img.shields.io/github/followers/dev1lsconf?label=follow&style=social)](https://github.com/dev1lsconf)
 ![Discord](https://img.shields.io/discord/959733145106784266)
 
-[![its unix system](https://media1.giphy.com/media/dDwicM3uFUqfC/giphy.gif?cid=ecf05e476bavg8yxt9edsggebvguucyt3oaqsckojmwmbgu5&rid=giphy.gif&ct=g)]
-
+- 🔭 I’m currently working on myself 
+- 🌱 I’m currently learning React 
+- 👯 I’m looking to collaborate on a big project and learn about it
+- 🤔 I’m looking for help with a remote job
+- 💬 Ask me about linux, *BSD or backend stuffs
+- 📫 How to reach me:
+- 
 - [Dev1ls info](http://dev1ls.sdf.org)
 - [Dev1ls blog](https://dev1ls.deno.dev)
 - [Gopher](https://gopherproxy.meulie.net/sdf.org/1/users/dev1ls)
 
-
+- ⚡ Fun fact: im a funny guy.. trusth me xD
 
 ![visitantes](https://visitor-badge.laobi.icu/badge?page_id=dev1lsconf.dev1lsconf)
 
