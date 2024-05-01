@@ -11,7 +11,6 @@
 - 🤔 I’m looking for help with a remote job
 - 💬 Ask me about linux, *BSD or backend stuffs
 - 📫 How to reach me:
-- 
 - [Dev1ls info](http://dev1ls.sdf.org)
 - [Dev1ls blog](https://dev1ls.deno.dev)
 - [Gopher](https://gopherproxy.meulie.net/sdf.org/1/users/dev1ls)
