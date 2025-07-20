@@ -1,6 +1,12 @@
+---
+
 # Dev1ls ⚡
 
-### in ❤️ with Unix | Spain 🇪🇸
+---
+
+### In ❤️ with Unix  |  📍 Spain 🇪🇸
+
+---
 
 ![banner](./dev1ls.png)
 
@@ -53,9 +59,7 @@ Aquí puede destacar algunos de sus **"Repositorios"** [1]
 
 ⚡ Fun fact: **¡Soy un tipo divertido! Créame, ja ja.** [1]
 
-<video width="800" controls>
-  <source src="./dev1ls.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
 ---
+
+![dev1ls lab](./dev1ls.gif)
 
