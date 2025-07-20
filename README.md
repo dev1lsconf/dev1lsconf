@@ -2,7 +2,7 @@
 
 ### in ❤️ with Unix | Spain 🇪🇸
 
-![banner](./dev1ls.jpg)
+![banner](./dev1ls.png)
 
 
 ---
@@ -10,8 +10,11 @@
 #### 👋 **Sobre Mí**
 
 🔭 **Actualmente estoy trabajando en mí mismo** [1] y enfocando mis energías en el crecimiento personal y profesional.
+
 🌱 **Me encuentro aprendiendo React** [1], buscando expandir mis habilidades en el desarrollo frontend.
+
 👯 **Estoy buscando colaborar en un proyecto grande y aprender de él** [1]. Me entusiasma la idea de unirme a equipos para abordar desafíos complejos y crecer juntos.
+
 🤔 **Estoy buscando ayuda con un trabajo remoto** [1] en el ámbito de la tecnología. Abierto a nuevas oportunidades y desafíos.
 
 ---
