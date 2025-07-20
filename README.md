@@ -4,6 +4,9 @@ Modelo de README.md Profesional y Gráfico
 
 ### in ❤️ with Unix | Spain 🇪🇸
 
+<!-- ![Banner de Dev1ls](dev1ls.jpg) -->
+
+
 ---
 
 #### 👋 **Sobre Mí**
@@ -33,17 +36,7 @@ Modelo de README.md Profesional y Gráfico
 
 #### ✨ **Proyectos Destacados**
 
-Aquí puede destacar algunos de sus **"Popular repositories"** [1] con una breve descripción o un "badge" de tecnología. Para lograr un aspecto "gráfico" tipo Apple/Vercel en esta sección, se podría considerar **diseñar miniaturas o iconos personalizados para cada proyecto** (esto es información externa a las fuentes y una práctica común en GitHub para mejorar la estética, no se describe en las fuentes cómo crear o usar estos elementos gráficos) y luego incrustarlos como imágenes Markdown.
-
-*   **`dev1lsconf`**
-    *   Dev1ls README.md [1]
-    *   *Aquí puede añadir un "badge" con la tecnología principal si aplica.*
-    *   ![Miniatura del Proyecto dev1lsconf](ruta/a/su/miniatura_dev1lsconf.png) *(Nota: La adición de imágenes personalizadas como miniaturas es una práctica externa a la información de las fuentes, que no detallan cómo crearlas o gestionarlas, pero es clave para un aspecto más "gráfico").*
-
-*   **`byd`**
-    *   JavaScript [1]
-    *   *Un proyecto en JavaScript con un enfoque en... (añada una breve descripción aquí).*
-    *   ![Miniatura del Proyecto byd](ruta/a/su/miniatura_byd.png)
+Aquí puede destacar algunos de sus **"Repositorios"** [1]
 
 *   **`twtxt_tui`**
     *   **Python** [2]
@@ -55,11 +48,6 @@ Aquí puede destacar algunos de sus **"Popular repositories"** [1] con una breve
     *   Nix [2]
     *   My NixOS Configuration [2]
     *   *Aquí puede añadir un "badge" o una breve descripción de su configuración.*
-
-*   **`home`**
-    *   CSS [2]
-    *   Eric Batista Website [2]
-    *   *Una captura de pantalla de su sitio web sería muy efectiva aquí para mostrar sus habilidades en CSS.*
 
 *   **`blog`**
     *   unix/linux blog [1]
