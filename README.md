@@ -31,7 +31,7 @@
 
 ---
 
-#### 🌐 **Conéctese Conmigo**
+#### 🌐 **Contacto**
 
 *   **Mi Blog Dev1ls:** [Dev1ls blog](https://dev1ls.deno.dev) [1, 5]
 *   **Dev1ls Info:** [Dev1ls info](http:dev1ls.sdf.org) [1]
@@ -42,7 +42,7 @@
 
 ---
 
-#### ✨ **Proyectos Destacados**
+#### ✨ **Proyectos**
 
 Aquí puede destacar algunos de sus **"Repositorios"** [1]
 
