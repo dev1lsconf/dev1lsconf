@@ -8,7 +8,7 @@
 
 ---
 
-![banner](./logo.png)
+![banner](./life.png)
 
 
 ---
@@ -61,5 +61,4 @@ Aquí puede destacar algunos de sus **"Repositorios"** [1]
 
 ---
 
-![dev1ls lab](./life.png)
 
