@@ -8,7 +8,7 @@
 
 ---
 
-![banner](./life.png)
+![banner](https://res.cloudinary.com/djeqn9kjl/image/upload/v1781920013/eric_oumzl2.png)
 
 
 ---
