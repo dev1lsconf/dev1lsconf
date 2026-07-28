@@ -85,14 +85,6 @@ $ echo $SHELL
 
 ---
 
-## 📊 GitHub Stats
-
-![dev1lsconf's GitHub stats](https://github-readme-stats.vercel.app/api?username=dev1lsconf&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dev1lsconf&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
 ## 🎯 Filosofía
 
 > **"Keep it simple, keep it secure, keep it Unix."**
@@ -102,15 +94,6 @@ $ echo $SHELL
 - 📚 **Documentación** como primera clase
 - 🤝 **Colaboración** abierta y respetuosa
 - 🎨 **Estética** en la terminal (TUI/CLI beauty)
-
----
-
-## 📜 Licencia & Créditos
-
-- **README template** inspirado en [awesome-github-profile](https://github.com/cassidoo/awesome-github-profile)
-- **Badges** via [shields.io](https://shields.io)
-- **Stats** via [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- **Auto-update blog posts** via custom GitHub Action (`.github/workflows/update-blog-posts.yml`)
 
 ---
 
