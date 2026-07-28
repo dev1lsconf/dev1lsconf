@@ -10,6 +10,12 @@
 
 ---
 
+<p align="center">
+  <img src="https://res.cloudinary.com/djeqn9kjl/image/upload/v1781920013/eric_oumzl2.png" alt="dev1ls banner" width="600"/>
+</p>
+
+---
+
 ## 👋 Sobre mí
 
 **Unix enthusiast · Backend & Systems · OpenBSD/Linux · Spain 🇪🇸**
