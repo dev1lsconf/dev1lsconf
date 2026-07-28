@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dev1lsconf/dev1lsconf/main/dev1ls.png" alt="dev1ls" width="500"/>
+  <img src="https://raw.githubusercontent.com/dev1lsconf/dev1lsconf/main/banner.png" alt="dev1ls banner" width="700"/>
 </p>
 
 ---
