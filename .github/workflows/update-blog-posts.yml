@@ -1,0 +1,160 @@
+name: Update Blog Posts in README
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC
+  workflow_dispatch:     # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch latest blog posts
+        id: fetch
+        run: |
+          # Fetch the blog page
+          BLOG_URL="http://dev1ls.sdf.org/blog/"
+          CONTENT=$(curl -sL "$BLOG_URL" || echo "ERROR")
+          
+          if [ "$CONTENT" = "ERROR" ] || [ -z "$CONTENT" ]; then
+            echo "Failed to fetch blog content"
+            exit 1
+          fi
+          
+          # Extract posts - looking for the pattern in your blog
+          # The blog uses <h2><a href="#slug">Title</a></h2> format
+          # We'll extract the first 5 posts
+          echo "$CONTENT" | grep -oP '(?<=<h2><a href="#)[^"]+(?=">)[^<]+' | head -5 | while IFS= read -r line; do
+            SLUG=$(echo "$line" | cut -d'>' -f1)
+            TITLE=$(echo "$line" | cut -d'>' -f2-)
+            echo "SLUG=$SLUG" >> $GITHUB_OUTPUT
+            echo "TITLE=$TITLE" >> $GITHUB_OUTPUT
+          done
+          
+          # Alternative: use a more robust extraction with Python
+          python3 << 'EOF'
+import re
+import sys
+
+content = sys.stdin.read()
+
+# Pattern for blog posts: <h2><a href="#slug">Title</a></h2>
+# Also capture date if available
+posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
+
+# Also try to find dates near the posts
+# The blog seems to have dates in format like "27 sep 2023"
+date_pattern = r'(\d{1,2}\s+\w{3}\s+\d{4})'
+dates = re.findall(date_pattern, content, re.IGNORECASE)
+
+output = []
+for i, (slug, title) in enumerate(posts[:5]):
+    date = dates[i] if i < len(dates) else ""
+    output.append(f"{date}|{slug}|{title}")
+
+print("POSTS<<EOF")
+for line in output:
+    print(line)
+print("EOF")
+EOF
+        env:
+          CONTENT: ${{ steps.fetch.outputs.CONTENT }}
+
+      - name: Update README with latest posts
+        if: steps.fetch.outputs.POSTS != ''
+        run: |
+          # Read current README
+          README=$(cat README.md)
+          
+          # Parse the posts from the output
+          POSTS="${{ steps.fetch.outputs.POSTS }}"
+          
+          # Build the new table rows
+          NEW_ROWS=""
+          while IFS='|' read -r date slug title; do
+            if [ -n "$slug" ] && [ -n "$title" ]; then
+              # Format date nicely
+              if [ -n "$date" ]; then
+                FORMATTED_DATE=$(date -d "$date" "+%d %b %Y" 2>/dev/null || echo "$date")
+              else
+                FORMATTED_DATE=""
+              fi
+              NEW_ROWS="${NEW_ROWS}| ${FORMATTED_DATE} | [${title}](http://dev1ls.sdf.org/blog/#${slug}) | $(echo "$title" | grep -oE '(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)' | head -1 | tr '[:upper:]' '[:lower:]') |\n"
+            fi
+          done <<< "$POSTS"
+          
+          # Replace the table in README (between "## 📝 Últimos 5 artículos" and next "## ")
+          # Using a more precise sed replacement
+          python3 << 'PYEOF'
+import re
+import os
+
+with open('README.md', 'r') as f:
+    content = f.read()
+
+# Get the new rows from environment
+posts = os.environ.get('POSTS', '').strip()
+if not posts:
+    print("No posts found")
+    exit(0)
+
+lines = posts.split('\n')
+new_rows = []
+for line in lines:
+    if not line.strip():
+        continue
+    parts = line.split('|', 2)
+    if len(parts) >= 3:
+        date, slug, title = parts[0], parts[1], parts[2]
+        if date:
+            try:
+                from datetime import datetime
+                dt = datetime.strptime(date.strip(), '%d %b %Y')
+                formatted = dt.strftime('%d %b %Y')
+            except:
+                formatted = date.strip()
+        else:
+            formatted = ""
+        # Extract topic from title
+        import re
+        topics = re.findall(r'(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)', title, re.IGNORECASE)
+        topic = topics[0].lower() if topics else ""
+        new_rows.append(f"| {formatted} | [{title.strip()}](http://dev1ls.sdf.org/blog/#{slug.strip()}) | {topic} |")
+
+new_table = "\n".join(new_rows)
+
+# Replace the table in the README
+# Find the section between "## 📝 Últimos 5 artículos" and next "## "
+pattern = r'(## 📝 Últimos 5 artículos del blog\n\n\| Fecha \| Título \| Tema \|\n\|[-| ]+\|\n)(.*?)(\n## )'
+replacement = r'\1' + new_table + r'\3'
+new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+if new_content != content:
+    with open('README.md', 'w') as f:
+        f.write(new_content)
+    print("README updated")
+else:
+    print("No changes needed")
+
+PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "🤖 Auto-update: latest 5 blog posts [skip ci]"
+            git push
+            echo "Pushed updates"
+          else
+            echo "No changes to commit"
+          fi
