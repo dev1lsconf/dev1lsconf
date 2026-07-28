@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <img src="https://res.cloudinary.com/djeqn9kjl/image/upload/v1781920013/eric_oumzl2.png" alt="dev1ls banner" width="600"/>
+  <img src="https://raw.githubusercontent.com/dev1lsconf/dev1lsconf/main/logo.png" alt="dev1ls logo" width="400"/>
 </p>
 
 ---
