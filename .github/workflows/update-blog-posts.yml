@@ -28,14 +28,17 @@ jobs:
             exit 1
           fi
           
-          # Use Python to extract posts and output as JSON
-          python3 -c "
-import re, json, sys, os
+          # Write Python script to file
+          cat > /tmp/parse_blog.py << 'PYEOF'
+import re
+import json
+import sys
+import os
 
 content = sys.stdin.read()
 
-# Pattern for blog posts: <h2><a href=\"#slug\">Title</a></h2>
-posts = re.findall(r'<h2><a href=\"#([^\"]+)\">([^<]+)</a></h2>', content)
+# Pattern for blog posts: <h2><a href="#slug">Title</a></h2>
+posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
 
 # Also try to find dates near the posts
 date_pattern = r'(\d{1,2}\s+\w{3}\s+\d{4})'
@@ -48,15 +51,22 @@ for i, (slug, title) in enumerate(posts[:5]):
 
 with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
     f.write('posts_json=' + json.dumps(output))
-  " <<< "$CONTENT"
+PYEOF
+          
+          # Run Python script with content as stdin
+          echo "$CONTENT" | python3 /tmp/parse_blog.py
 
       - name: Update README with latest posts
         if: fromJson(steps.fetch.outputs.posts_json) != '[]'
         env:
           POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
         run: |
-          python3 -c "
-import re, json, os, sys
+          # Write Python script to file
+          cat > /tmp/update_readme.py << 'PYEOF'
+import re
+import json
+import os
+import sys
 
 with open('README.md', 'r') as f:
     content = f.read()
@@ -103,7 +113,10 @@ if new_content != content:
     print('README updated')
 else:
     print('No changes needed')
-  "
+PYEOF
+          
+          # Run Python script
+          python3 /tmp/update_readme.py
 
       - name: Commit and push if changed
         run: |
