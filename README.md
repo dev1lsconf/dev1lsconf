@@ -57,7 +57,6 @@ $ echo $SHELL
 | Plataforma | Enlace |
 |------------|--------|
 | **Blog principal (SDF)** | [http://dev1ls.sdf.org/blog/](http://dev1ls.sdf.org/blog/) |
-| **Blog mirror (Deno)** | [https://dev1ls.deno.dev](https://dev1ls.deno.dev) |
 | **Gopher** | [gopher://texto-plano.xyz:70/1/~dev1ls/](gopher://texto-plano.xyz:70/1/~dev1ls/) |
 | **twtxt** | [http://dev1ls.sdf.org/twt.html](http://dev1ls.sdf.org/twt.html) |
 | **Mastodon (SDF)** | [@dev1ls@mastodon.sdf.org](https://mastodon.sdf.org/@dev1ls) |
