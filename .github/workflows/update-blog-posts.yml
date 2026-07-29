@@ -29,55 +29,39 @@ jobs:
           fi
           
           cat > /tmp/parse_blog.py << 'PYEOF'
-import re
-import json
-import sys
-import os
-
+import re, json, sys, os
 content = sys.stdin.read()
-
 posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
 date_pattern = r'(\d{1,2}\s+\w{3}\s+\d{4})'
 dates = re.findall(date_pattern, content, re.IGNORECASE)
-
 output = []
 for i, (slug, title) in enumerate(posts[:5]):
     date = dates[i] if i < len(dates) else ''
     output.append({'date': date, 'slug': slug, 'title': title})
-
 with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
     f.write('posts_json=' + json.dumps(output))
 PYEOF
-          
           echo "$CONTENT" | python3 /tmp/parse_blog.py
 
-      - name: Update README with latest posts
+      - name: Update README
         if: fromJson(steps.fetch.outputs.posts_json) != '[]'
         env:
           POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
         run: |
           cat > /tmp/update_readme.py << 'PYEOF'
-import re
-import json
-import os
-import sys
-
+import re, json, os, sys
 with open('README.md', 'r') as f:
     content = f.read()
-
 posts_json = os.environ.get('POSTS_JSON', '[]')
 posts = json.loads(posts_json)
-
 if not posts:
     print('No posts found')
     sys.exit(0)
-
 new_rows = []
 for post in posts:
     date = post.get('date', '').strip()
     slug = post.get('slug', '').strip()
     title = post.get('title', '').strip()
-    
     if date:
         try:
             from datetime import datetime
@@ -87,18 +71,13 @@ for post in posts:
             formatted = date
     else:
         formatted = ''
-    
     topics = re.findall(r'(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)', title, re.IGNORECASE)
     topic = topics[0].lower() if topics else ''
-    
     new_rows.append(f'| {formatted} | [{title}](http://dev1ls.sdf.org/blog/#{slug}) | {topic} |')
-
 new_table = '\n'.join(new_rows)
-
 pattern = r'(## 📝 Últimos 5 artículos del blog\n\n\| Fecha \| Título \| Tema \|\n\|[-| ]+\|\n)(.*?)(\n## )'
 replacement = r'\1' + new_table + r'\3'
 new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
-
 if new_content != content:
     with open('README.md', 'w') as f:
         f.write(new_content)
@@ -106,10 +85,9 @@ if new_content != content:
 else:
     print('No changes needed')
 PYEOF
-          
           python3 /tmp/update_readme.py
 
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
