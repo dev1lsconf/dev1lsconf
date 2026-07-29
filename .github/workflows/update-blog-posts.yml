@@ -20,8 +20,8 @@ jobs:
         id: fetch
         run: |
           curl -sL "http://dev1ls.sdf.org/blog/" -o /tmp/blog.html || exit 1
-          python3 << 'EOF'
-import re, json, sys
+          cat > /tmp/parse_blog.py << 'PYEOF'
+import re, json, sys, os
 with open('/tmp/blog.html') as f:
     content = f.read()
 posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
@@ -29,17 +29,17 @@ dates = re.findall(r'(\d{1,2}\s+\w{3}\s+\d{4})', content, re.IGNORECASE)
 out = []
 for i, (slug, title) in enumerate(posts[:5]):
     out.append({'date': dates[i] if i < len(dates) else '', 'slug': slug, 'title': title})
-import json, os
 with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
     f.write('posts_json=' + json.dumps(out))
-EOF
+PYEOF
+          python3 /tmp/parse_blog.py
 
       - name: Update README
         if: fromJson(steps.fetch.outputs.posts_json) != '[]'
         env:
           POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
         run: |
-          python3 << 'EOF'
+          cat > /tmp/update_readme.py << 'PYEOF'
 import re, json, os, sys
 with open('README.md') as f:
     content = f.read()
@@ -66,7 +66,8 @@ if new != content:
     print('README updated')
 else:
     print('No changes')
-EOF
+PYEOF
+          python3 /tmp/update_readme.py
 
       - name: Commit & push
         run: |
