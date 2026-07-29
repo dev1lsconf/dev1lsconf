@@ -28,16 +28,14 @@ jobs:
             exit 1
           fi
           
-          # Use Python to extract posts and output as JSON for the next step
-          python3 << 'PYEOF'
-import re
-import json
-import sys
+          # Use Python to extract posts and output as JSON
+          python3 -c "
+import re, json, sys, os
 
 content = sys.stdin.read()
 
-# Pattern for blog posts: <h2><a href="#slug">Title</a></h2>
-posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
+# Pattern for blog posts: <h2><a href=\"#slug\">Title</a></h2>
+posts = re.findall(r'<h2><a href=\"#([^\"]+)\">([^<]+)</a></h2>', content)
 
 # Also try to find dates near the posts
 date_pattern = r'(\d{1,2}\s+\w{3}\s+\d{4})'
@@ -45,24 +43,20 @@ dates = re.findall(date_pattern, content, re.IGNORECASE)
 
 output = []
 for i, (slug, title) in enumerate(posts[:5]):
-    date = dates[i] if i < len(dates) else ""
-    output.append({"date": date, "slug": slug, "title": title})
+    date = dates[i] if i < len(dates) else ''
+    output.append({'date': date, 'slug': slug, 'title': title})
 
-# Write to GITHUB_OUTPUT
 with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-    f.write(f'posts_json={json.dumps(output)}')
-PYEOF
-        env:
-          CONTENT: ${{ steps.fetch.outputs.CONTENT }}
-        shell: bash
+    f.write('posts_json=' + json.dumps(output))
+  " <<< "$CONTENT"
 
       - name: Update README with latest posts
         if: fromJson(steps.fetch.outputs.posts_json) != '[]'
+        env:
+          POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
         run: |
-          python3 << 'PYEOF'
-import re
-import os
-import json
+          python3 -c "
+import re, json, os, sys
 
 with open('README.md', 'r') as f:
     content = f.read()
@@ -71,8 +65,8 @@ posts_json = os.environ.get('POSTS_JSON', '[]')
 posts = json.loads(posts_json)
 
 if not posts:
-    print("No posts found")
-    exit(0)
+    print('No posts found')
+    sys.exit(0)
 
 new_rows = []
 for post in posts:
@@ -88,15 +82,15 @@ for post in posts:
         except:
             formatted = date
     else:
-        formatted = ""
+        formatted = ''
     
     # Extract topic from title
     topics = re.findall(r'(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)', title, re.IGNORECASE)
-    topic = topics[0].lower() if topics else ""
+    topic = topics[0].lower() if topics else ''
     
-    new_rows.append(f"| {formatted} | [{title}](http://dev1ls.sdf.org/blog/#{slug}) | {topic} |")
+    new_rows.append(f'| {formatted} | [{title}](http://dev1ls.sdf.org/blog/#{slug}) | {topic} |')
 
-new_table = "\n".join(new_rows)
+new_table = '\n'.join(new_rows)
 
 # Replace the table in the README
 pattern = r'(## 📝 Últimos 5 artículos del blog\n\n\| Fecha \| Título \| Tema \|\n\|[-| ]+\|\n)(.*?)(\n## )'
@@ -106,12 +100,10 @@ new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 if new_content != content:
     with open('README.md', 'w') as f:
         f.write(new_content)
-    print("README updated")
+    print('README updated')
 else:
-    print("No changes needed")
-PYEOF
-        env:
-          POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
+    print('No changes needed')
+  "
 
       - name: Commit and push if changed
         run: |
