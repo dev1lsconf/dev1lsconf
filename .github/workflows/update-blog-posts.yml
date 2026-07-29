@@ -2,8 +2,8 @@ name: Update Blog Posts in README
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 06:00 UTC
-  workflow_dispatch:     # Manual trigger
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,7 +12,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,7 +28,6 @@ jobs:
             exit 1
           fi
           
-          # Write Python script to file
           cat > /tmp/parse_blog.py << 'PYEOF'
 import re
 import json
@@ -37,10 +36,7 @@ import os
 
 content = sys.stdin.read()
 
-# Pattern for blog posts: <h2><a href="#slug">Title</a></h2>
 posts = re.findall(r'<h2><a href="#([^"]+)">([^<]+)</a></h2>', content)
-
-# Also try to find dates near the posts
 date_pattern = r'(\d{1,2}\s+\w{3}\s+\d{4})'
 dates = re.findall(date_pattern, content, re.IGNORECASE)
 
@@ -53,7 +49,6 @@ with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
     f.write('posts_json=' + json.dumps(output))
 PYEOF
           
-          # Run Python script with content as stdin
           echo "$CONTENT" | python3 /tmp/parse_blog.py
 
       - name: Update README with latest posts
@@ -61,7 +56,6 @@ PYEOF
         env:
           POSTS_JSON: ${{ steps.fetch.outputs.posts_json }}
         run: |
-          # Write Python script to file
           cat > /tmp/update_readme.py << 'PYEOF'
 import re
 import json
@@ -94,7 +88,6 @@ for post in posts:
     else:
         formatted = ''
     
-    # Extract topic from title
     topics = re.findall(r'(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)', title, re.IGNORECASE)
     topic = topics[0].lower() if topics else ''
     
@@ -102,7 +95,6 @@ for post in posts:
 
 new_table = '\n'.join(new_rows)
 
-# Replace the table in the README
 pattern = r'(## 📝 Últimos 5 artículos del blog\n\n\| Fecha \| Título \| Tema \|\n\|[-| ]+\|\n)(.*?)(\n## )'
 replacement = r'\1' + new_table + r'\3'
 new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
@@ -115,7 +107,6 @@ else:
     print('No changes needed')
 PYEOF
           
-          # Run Python script
           python3 /tmp/update_readme.py
 
       - name: Commit and push if changed
