@@ -58,7 +58,7 @@ $ echo $SHELL
 |------------|--------|
 | **Blog principal (SDF)** | [http://dev1ls.sdf.org/blog/](http://dev1ls.sdf.org/blog/) |
 | **Gopher** | [gopher://texto-plano.xyz:70/1/~dev1ls/](gopher://texto-plano.xyz:70/1/~dev1ls/) |
-| **twtxt** | [http://dev1ls.sdf.org/twt.html](http://dev1ls.sdf.org/twt.html) |
+| **twtxt** | [http://dev1ls.sdf.org/twt.html](http://dev1ls.sdf.org/timeline/) |
 | **Mastodon (SDF)** | [@dev1ls@mastodon.sdf.org](https://mastodon.sdf.org/@dev1ls) |
 | **X / Twitter** | [@dev1lsconf](https://x.com/dev1lsconf) |
 | **GitHub** | [github.com/dev1lsconf](https://github.com/dev1lsconf) |
