@@ -1,13 +1,14 @@
+<div align="center">
 
 ![Header](header.svg)
 
-<p>
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=440&lines=Unix+Enthusiast;Backend+%26+Systems;OpenBSD%2FLinux+NixOS;DevOps+%26+SRE" alt="Typing SVG" />
 </p>
 
 ## 🌐 Connect With Me
 
-<p>
+<p align="center">
   <a href="https://github.com/dev1lsconf" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
@@ -22,10 +23,12 @@
   </a>
 </p>
 
+</div>
 
 ## 🚀 About Me
 
 
+<div align="center">
 
 I'm a **Unix enthusiast** and **Backend & Systems** developer based in Spain 🇪🇸. I live in the terminal and believe in the Unix philosophy: simple, secure, composable tools.
 
@@ -38,6 +41,7 @@ $ echo $SHELL
 /bin/ksh
 ```
 
+</div>
 
 ### 🎯 Current Focus
 - 🔭 Deepening **React** and modern frontend architecture
@@ -62,6 +66,7 @@ const dev1ls = {
 
 ## 🛠️ Technology Stack
 
+<div align="center">
 
 ### Operating Systems & Kernels
 <p>
@@ -118,9 +123,11 @@ const dev1ls = {
 - ⚙️ **DevOps & SRE** (CI/CD, Containers, VMs)
 - 🎨 **Terminal Aesthetics** (TUI/CLI beauty, cwm, lemonbar)
 
+</div>
 
 ## 📦 Featured Projects
 
+<div align="center">
 
 | Repo | Description | Tech |
 |------|-------------|------|
@@ -128,9 +135,11 @@ const dev1ls = {
 | [`blog`](https://github.com/dev1lsconf/blog) | Blog Unix/Linux (fuente del mirror en SDF) | HTML, CSS, Deno Deploy |
 | [`dotfiles`](https://github.com/dev1lsconf/dotfiles) | Dotfiles gestionados con Stow | ksh, cwm, git, vim, etc. |
 
+</div>
 
 ## 📝 Latest Blog Posts
 
+<div align="center">
 
 | Date | Title | Topic |
 |------|-------|-------|
@@ -143,6 +152,7 @@ const dev1ls = {
 > 🔄 **Updated automatically** via GitHub Actions daily at 06:00 UTC  
 > 📖 **View all posts:** [http://dev1ls.sdf.org/blog/](http://dev1ls.sdf.org/blog/)
 
+</div>
 
 ## 🎯 Philosophy
 
@@ -156,6 +166,7 @@ const dev1ls = {
 
 ---
 
+<div align="center">
 
 **⭐ If you like my work, consider starring my repositories**
 
