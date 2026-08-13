@@ -1,30 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4aa"/>
-      <stop offset="50%" stop-color="#0099cc"/>
-      <stop offset="100%" stop-color="#00d4aa"/>
+    <!-- Dark professional background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="50%" stop-color="#0d1423"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
     </linearGradient>
+
+    <!-- Subtle accent gradient for waves -->
     <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#0099cc" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#00d4aa" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0099cc" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00d4aa" stop-opacity="0.12"/>
     </linearGradient>
+
+    <!-- Text fill gradient -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#e0f7fa"/>
+      <stop offset="0%" stop-color="#e8f4fd"/>
+      <stop offset="100%" stop-color="#a0d8f0"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+
+    <!-- Glowing stroke filter -->
+    <filter id="glowStroke" x="-80%" y="-80%" width="260%" height="260%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="stroke"/>
+      <feGaussianBlur in="stroke" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#00d4aa" flood-opacity="0.9" result="glowColor"/>
+      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="glow"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Subtitle glow filter -->
+    <filter id="subtleGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#00d4aa" flood-opacity="0.5" result="glowColor"/>
+      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Decorative grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d4aa" stroke-width="0.3" opacity="0.08"/>
+    </pattern>
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid overlay -->
+  <rect width="1200" height="300" fill="url(#grid)"/>
 
   <!-- Wave pattern - bottom layer -->
   <path d="M0,240 Q150,180 300,220 T600,190 T900,230 T1200,200 L1200,300 L0,300 Z" fill="url(#waveGrad)"/>
@@ -35,14 +64,14 @@
   <!-- Wave pattern - top layer -->
   <path d="M0,280 Q100,230 200,270 T400,240 T600,280 T800,250 T1000,280 T1200,260 L1200,300 L0,300 Z" fill="url(#waveGrad)" opacity="0.4"/>
 
-  <!-- Main text: dev1ls -->
-  <text x="600" y="135" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="72" font-weight="700" fill="url(#textGrad)" text-anchor="middle" filter="url(#glow)" letter-spacing="2">dev1ls</text>
+  <!-- Main text: dev1ls - with glowing stroke border -->
+  <text x="600" y="135" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="72" font-weight="700" fill="url(#textGrad)" text-anchor="middle" filter="url(#glowStroke)" letter-spacing="2" paint-order="stroke fill">dev1ls</text>
 
-  <!-- Subtitle -->
-  <text x="600" y="185" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="22" font-weight="400" fill="#ffffff" text-anchor="middle" opacity="0.95" letter-spacing="0.5">Unix Enthusiast  |  Backend &amp; Systems  |  OpenBSD/Linux/NixOS</text>
+  <!-- Subtitle with subtle glow -->
+  <text x="600" y="185" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="22" font-weight="400" fill="#b8d4e8" text-anchor="middle" filter="url(#subtleGlow)" letter-spacing="0.5" opacity="0.9">Unix Enthusiast  |  Backend &amp; Systems  |  OpenBSD/Linux/NixOS</text>
 
   <!-- Terminal prompt decoration -->
-  <g font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="14" fill="#00d4aa" opacity="0.6">
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="14" fill="#00d4aa" opacity="0.5">
     <text x="150" y="260" text-anchor="start">$ whoami</text>
     <text x="150" y="280" text-anchor="start">&gt; dev1ls</text>
     <text x="1050" y="260" text-anchor="end">$ uname -s</text>
@@ -50,5 +79,5 @@
   </g>
 
   <!-- Bottom accent line -->
-  <line x1="300" y1="295" x2="900" y2="295" stroke="#00d4aa" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="295" x2="900" y2="295" stroke="#00d4aa" stroke-width="1" opacity="0.3"/>
 </svg>
