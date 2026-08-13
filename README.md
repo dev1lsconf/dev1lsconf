@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00d4aa,50:0099cc,100:00d4aa&height=300&section=header&text=dev1ls&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Unix%20Enthusiast%20%7C%20Backend%20%26%20Systems%20%7C%20OpenBSD%2FLinux&descAlignY=51&descAlign=50)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00d4aa,50:0099cc,100:00d4aa&height=300&text=dev1ls&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Unix%20Enthusiast%20%7C%20Backend%20%26%20Systems%20%7C%20OpenBSD%2FLinux&descAlignY=51&descAlign=50)
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=440&lines=Unix+Enthusiast;Backend+%26+Systems;OpenBSD%2FLinux+NixOS;DevOps+%26+SRE" alt="Typing SVG" />
