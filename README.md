@@ -27,7 +27,8 @@
 
 ## 🚀 About Me
 
-<img align="right" alt="Terminal" width="400" src="https://raw.githubusercontent.com/dev1lsconf/dev1lsconf/main/banner.png">
+
+<div align="center">
 
 I'm a **Unix enthusiast** and **Backend & Systems** developer based in Spain 🇪🇸. I live in the terminal and believe in the Unix philosophy: simple, secure, composable tools.
 
@@ -39,6 +40,8 @@ OpenBSD
 $ echo $SHELL
 /bin/ksh
 ```
+
+</div>
 
 ### 🎯 Current Focus
 - 🔭 Deepening **React** and modern frontend architecture
