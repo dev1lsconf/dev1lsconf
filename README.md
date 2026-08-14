@@ -35,19 +35,7 @@ Unix enthusiast and **backend & systems engineer** based in Spain. I build softw
 
 My work centers on backend development, systems administration, and infrastructure as code, with a strong commitment to OpenBSD security practices and declarative configuration.
 
-<div style="max-width:560px;margin:24px auto 0;background:#0d0d0d;border:1px solid #262626;border-radius:14px;text-align:left;overflow:hidden">
-  <div style="padding:10px 16px;border-bottom:1px solid #262626;background:#0f0f0f">
-    <span style="color:#3f3f46;font-size:10px;letter-spacing:4px">● ● ●</span>
-  </div>
-  <pre style="margin:0;padding:18px 20px;background:#0d0d0d;font-family:'JetBrains Mono','Fira Code',monospace;font-size:13px;line-height:1.7;color:#d1d5db"><span style="color:#6b7280">$</span> cat profile.json
-{
-  <span style="color:#9ca3af">"role"</span>: <span style="color:#e5e7eb">"Backend &amp; Systems Engineer"</span>,
-  <span style="color:#9ca3af">"os"</span>: [<span style="color:#e5e7eb">"OpenBSD"</span>, <span style="color:#e5e7eb">"NixOS"</span>, <span style="color:#e5e7eb">"Arch"</span>, <span style="color:#e5e7eb">"FreeBSD"</span>],
-  <span style="color:#9ca3af">"shell"</span>: <span style="color:#e5e7eb">"ksh"</span>,
-  <span style="color:#9ca3af">"wm"</span>: <span style="color:#e5e7eb">"cwm"</span>,
-  <span style="color:#9ca3af">"focus"</span>: [<span style="color:#e5e7eb">"React"</span>, <span style="color:#e5e7eb">"TypeScript"</span>, <span style="color:#e5e7eb">"CI/CD"</span>]
-}</pre>
-</div>
+<img src="terminal.svg" alt="profile.json terminal" width="100%"/>
 
 <p style="margin-top:24px">Currently focusing on: <strong>React</strong> · <strong>TypeScript</strong> · <strong>CI/CD</strong> · <strong>Design Patterns</strong></p>
 

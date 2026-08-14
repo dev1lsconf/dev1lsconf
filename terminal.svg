@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.04"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.55">
+        <animate attributeName="flood-opacity" values="0.45;0.7;0.45" dur="6s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+  </defs>
+
+  <rect width="760" height="372" fill="url(#bgGrad)"/>
+  <rect width="760" height="372" fill="url(#grid)"/>
+
+  <!-- Window -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="58" width="720" height="298" fill="#0d0d0d"/>
+    <path d="M20,32 Q20,16 36,16 L724,16 Q740,16 740,32 L740,58 L20,58 Z" fill="#0f0f0f"/>
+    <line x1="20" y1="58" x2="740" y2="58" stroke="#262626" stroke-width="1"/>
+    <rect x="20" y="16" width="720" height="340" rx="16" fill="none" stroke="#262626" stroke-width="1"/>
+  </g>
+
+  <!-- Traffic lights -->
+  <circle cx="46" cy="37" r="4.5" fill="#3f3f46"/>
+  <circle cx="62" cy="37" r="4.5" fill="#3f3f46"/>
+  <circle cx="78" cy="37" r="4.5" fill="#3f3f46"/>
+
+  <!-- Title -->
+  <text x="380" y="42" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="12" fill="#9ca3af" letter-spacing="0.5">dev1ls — profile.json</text>
+
+  <g font-family="'JetBrains Mono','Fira Code',monospace" font-size="14">
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.03;0.04" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="118" fill="#e5e7eb"><tspan fill="#6b7280">$</tspan> cat profile.json</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.11;0.12" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="144" fill="#52525b">{</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.19" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="170"><tspan fill="#52525b">  </tspan><tspan fill="#a1a1aa">"role"</tspan><tspan fill="#52525b">: </tspan><tspan fill="#f4f4f5">"Backend &amp; Systems Engineer"</tspan><tspan fill="#52525b">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.27;0.28" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="196"><tspan fill="#52525b">  </tspan><tspan fill="#a1a1aa">"os"</tspan><tspan fill="#52525b">: [</tspan><tspan fill="#f4f4f5">"OpenBSD"</tspan><tspan fill="#52525b">, </tspan><tspan fill="#f4f4f5">"NixOS"</tspan><tspan fill="#52525b">, </tspan><tspan fill="#f4f4f5">"Arch"</tspan><tspan fill="#52525b">, </tspan><tspan fill="#f4f4f5">"FreeBSD"</tspan><tspan fill="#52525b">],</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;0.36" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="222"><tspan fill="#52525b">  </tspan><tspan fill="#a1a1aa">"shell"</tspan><tspan fill="#52525b">: </tspan><tspan fill="#f4f4f5">"ksh"</tspan><tspan fill="#52525b">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.42;0.43" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="248"><tspan fill="#52525b">  </tspan><tspan fill="#a1a1aa">"wm"</tspan><tspan fill="#52525b">: </tspan><tspan fill="#f4f4f5">"cwm"</tspan><tspan fill="#52525b">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.49;0.5" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="274"><tspan fill="#52525b">  </tspan><tspan fill="#a1a1aa">"focus"</tspan><tspan fill="#52525b">: [</tspan><tspan fill="#f4f4f5">"React"</tspan><tspan fill="#52525b">, </tspan><tspan fill="#f4f4f5">"TypeScript"</tspan><tspan fill="#52525b">, </tspan><tspan fill="#f4f4f5">"CI/CD"</tspan><tspan fill="#52525b">]</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.56;0.57" dur="14s" repeatCount="indefinite"/>
+      <text x="44" y="300" fill="#52525b">}</text>
+      <g>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="8.6s" repeatCount="indefinite"/>
+        <text x="54" y="300" fill="#ffffff">▊</text>
+      </g>
+    </g>
+  </g>
+</svg>
