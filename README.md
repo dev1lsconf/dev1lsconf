@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=440&lines=Unix+Enthusiast;Backend+%26+Systems;OpenBSD%2FLinux+NixOS;DevOps+%26+SRE" alt="Typing SVG" />
 </p>
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/dev1lsconf" target="_blank">
@@ -25,47 +25,24 @@
 
 </div>
 
-## 🚀 About Me
+## About Me
 
-<img align="right" alt="Terminal" width="400" src="https://raw.githubusercontent.com/dev1lsconf/dev1lsconf/main/banner.png">
+Unix enthusiast and **backend & systems engineer** based in Spain. I build software guided by the Unix philosophy: simple, secure, and composable tools.
 
-I'm a **Unix enthusiast** and **Backend & Systems** developer based in Spain 🇪🇸. I live in the terminal and believe in the Unix philosophy: simple, secure, composable tools.
+My work centers on backend development, systems administration, and infrastructure as code, with a strong commitment to OpenBSD security practices and declarative configuration.
 
-```text
-$ whoami
-dev1ls
-$ uname -s
-OpenBSD
-$ echo $SHELL
-/bin/ksh
-```
-
-### 🎯 Current Focus
 - 🔭 Deepening **React** and modern frontend architecture
 - 🌱 Learning **TypeScript**, testing, CI/CD, and design patterns
-- 👯 Looking to collaborate on open-source systems, CLI/TUI tooling, or infrastructure
-- 💼 Available for remote work (backend, systems, DevOps, SRE)
-- 💬 Ask me about: OpenBSD, Linux, NixOS, cwm, doas, Gemini, Gopher, dotfiles
+- 👯 Open to collaborating on open-source systems, CLI/TUI tooling, or infrastructure
+- 💼 Available for remote work: backend, systems, DevOps, SRE
+- 💬 Ask me about OpenBSD, Linux, NixOS, cwm, doas, Gemini, Gopher, and dotfiles
 
-### 💡 Interests
-```javascript
-const dev1ls = {
-    location: "Spain 🇪🇸",
-    role: "Backend & Systems Engineer",
-    os: ["OpenBSD", "NixOS", "Linux (Arch)", "FreeBSD"],
-    shells: ["ksh", "bash", "fish", "POSIX sh"],
-    wms: ["cwm", "dwm", "bspwm", "i3"],
-    interests: ["Unix Philosophy", "Security Hardening", "Minimalism", "Terminal Aesthetics"],
-    currentlyLearning: ["TypeScript", "React", "Testing", "CI/CD", "Design Patterns"],
-    goal: "Build simple, secure, well-documented systems"
-};
-```
-
-## 🛠️ Technology Stack
+## Technology Stack
 
 <div align="center">
 
-### Operating Systems & Kernels
+### Operating Systems
+
 <p>
   <img src="https://img.shields.io/badge/OpenBSD-007396?style=for-the-badge&logo=openbsd&logoColor=white" alt="OpenBSD"/>
   <img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"/>
@@ -74,6 +51,7 @@ const dev1ls = {
 </p>
 
 ### Shells & Scripting
+
 <p>
   <img src="https://img.shields.io/badge/ksh-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="ksh"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
@@ -83,6 +61,7 @@ const dev1ls = {
 </p>
 
 ### Window Managers
+
 <p>
   <img src="https://img.shields.io/badge/cwm-000000?style=for-the-badge&logo=window-manager&logoColor=white" alt="cwm"/>
   <img src="https://img.shields.io/badge/dwm-000000?style=for-the-badge&logo=window-manager&logoColor=white" alt="dwm"/>
@@ -90,7 +69,8 @@ const dev1ls = {
   <img src="https://img.shields.io/badge/i3-000000?style=for-the-badge&logo=i3&logoColor=white" alt="i3"/>
 </p>
 
-### Config Management & Security
+### Configuration & Security
+
 <p>
   <img src="https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="Nix"/>
   <img src="https://img.shields.io/badge/GNU_Stow-000000?style=for-the-badge&logo=gnu&logoColor=white" alt="GNU Stow"/>
@@ -100,6 +80,7 @@ const dev1ls = {
 </p>
 
 ### Protocols & Tools
+
 <p>
   <img src="https://img.shields.io/badge/Gemini-007396?style=for-the-badge&logo=gemini&logoColor=white" alt="Gemini"/>
   <img src="https://img.shields.io/badge/Gopher-000000?style=for-the-badge&logo=gopher&logoColor=white" alt="Gopher"/>
@@ -111,32 +92,24 @@ const dev1ls = {
   <img src="https://img.shields.io/badge/qemu-000000?style=for-the-badge&logo=qemu&logoColor=white" alt="qemu"/>
 </p>
 
-### Areas of Expertise
-- 🖥️ **Unix/Linux Systems Administration**
-- 🔒 **Security Hardening** (OpenBSD way: unveil, pledge, doas)
-- 🏗️ **Infrastructure as Code** (Nix, NixOS, Home Manager)
-- 🐚 **Shell Scripting & Dotfiles Management** (GNU Stow)
-- 🌐 **Alternative Protocols** (Gemini, Gopher, twtxt)
-- ⚙️ **DevOps & SRE** (CI/CD, Containers, VMs)
-- 🎨 **Terminal Aesthetics** (TUI/CLI beauty, cwm, lemonbar)
-
 </div>
 
-## 📦 Featured Projects
+## Featured Projects
 
 <div align="center">
 
-| Repo | Description | Tech |
-|------|-------------|------|
-| [`nixos-config`](https://github.com/dev1lsconf/nixos-config) | Mi configuración declarativa de NixOS | Nix, NixOS, Home Manager |
-| [`blog`](https://github.com/dev1lsconf/blog) | Blog Unix/Linux (fuente del mirror en SDF) | HTML, CSS, Deno Deploy |
-| [`dotfiles`](https://github.com/dev1lsconf/dotfiles) | Dotfiles gestionados con Stow | ksh, cwm, git, vim, etc. |
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [cityflow](https://github.com/dev1lsconf/cityflow) | Barcelona Urban Intelligence Platform — real-time map with mobility, weather, and urban data. | TypeScript |
+| [financial-panel](https://github.com/dev1lsconf/financial-panel) | Real-time financial dashboard covering stocks, crypto, and forex with technical analysis. | Python |
+| [elitos-trading-terminal](https://github.com/dev1lsconf/elitos-trading-terminal) | Cyberpunk/minimalist trading terminal built with Vite + React 19, lightweight-charts v5, and a Flask + pandas/numpy backend. | TypeScript |
+| [0880-ai-bot](https://github.com/dev1lsconf/0880-ai-bot) | MCP-driven multi-market trading dashboard bridging AI agents with live market data, paper trading, and backtesting/Monte Carlo engines. | Python |
+| [la-sagrada-biblia](https://github.com/dev1lsconf/la-sagrada-biblia) | Offline PWA for reading and searching the Biblia Dios Habla Hoy 1994 in Spanish, including deuterocanonical books. | TypeScript |
+| [tienda-informatica](https://github.com/dev1lsconf/tienda-informatica) | Mr. Robot Store — computer hardware store with an administrative panel. | PHP |
 
 </div>
 
-## 📝 Latest Blog Posts
-
-<div align="center">
+## Latest Blog Posts
 
 | Date | Title | Topic |
 |------|-------|-------|
@@ -146,28 +119,23 @@ const dev1ls = {
 | 18 Feb 2023 | [CWM Window Manager](http://dev1ls.sdf.org/blog/#cwm-window-manager) | CWM |
 | 07 Feb 2023 | [Awesome list TUI and CLI apps](http://dev1ls.sdf.org/blog/#awesome-tui-apps) | TUI/CLI |
 
-> 🔄 **Updated automatically** via GitHub Actions daily at 06:00 UTC  
-> 📖 **View all posts:** [http://dev1ls.sdf.org/blog/](http://dev1ls.sdf.org/blog/)
+> **Updated automatically** via GitHub Actions (daily at 06:00 UTC)
+> **View all posts:** http://dev1ls.sdf.org/blog/
 
-</div>
-
-## 🎯 Philosophy
+## Philosophy
 
 > **"Keep it simple, keep it secure, keep it Unix."**
 
 - 🏗️ **Simplicity** over unnecessary complexity
-- 🔒 **Security** by default (OpenBSD way)
-- 📚 **Documentation** as first-class citizen
+- 🔒 **Security** by default (the OpenBSD way)
+- 📚 **Documentation** as a first-class citizen
 - 🤝 **Open** and respectful collaboration
-- 🎨 **Aesthetics** in the terminal (TUI/CLI beauty)
 
 ---
 
 <div align="center">
 
-**⭐ If you like my work, consider starring my repositories**
-
-**🤝 Open to opportunities, collaborations, and technical chats**
+**Open to opportunities, collaborations, and technical conversations**
 
 ![Footer](footer.svg)
 
