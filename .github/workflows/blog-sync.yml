@@ -56,9 +56,10 @@ for p in posts:
     except:
         f = d
     topic = re.findall(r'(Gemini|cwm|Doas|CWM|TUI|CLI|OpenBSD|dotfiles|hardening|window manager)', t, re.I)
-    rows.append(f'| {f} | [{t}](http://dev1ls.sdf.org/blog/#{s}) | {topic[0].lower() if topic else \"\"} |')
-table = '\n'.join(rows)
-new = re.sub(r'(## Latest Blog Posts\n\n\| Date \| Title \| Topic \|\n\|[-| ]+\|\n)(.*?)(\n\n> )', r'\1' + table + r'\3', content, flags=re.DOTALL)
+    topic_txt = topic[0].lower() if topic else ''
+    rows.append(f'<p>{f} — <a href=\"http://dev1ls.sdf.org/blog/#{s}\">{t}</a> <span style=\"color:#6b7280\">· {topic_txt}</span></p>')
+block = '\n'.join(rows)
+new = re.sub(r'(<!--POSTS-START-->\n)(.*?)(\n<!--POSTS-END-->)', r'\1' + block + r'\3', content, flags=re.DOTALL)
 if new != content:
     with open('README.md', 'w') as f:
         f.write(new)

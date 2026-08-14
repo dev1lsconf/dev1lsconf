@@ -29,15 +29,35 @@
 
 ## About Me
 
+<div align="center">
+
 Unix enthusiast and **backend & systems engineer** based in Spain. I build software guided by the Unix philosophy: simple, secure, and composable tools.
 
 My work centers on backend development, systems administration, and infrastructure as code, with a strong commitment to OpenBSD security practices and declarative configuration.
 
-- 🔭 Deepening **React** and modern frontend architecture
-- 🌱 Learning **TypeScript**, testing, CI/CD, and design patterns
-- 👯 Open to collaborating on open-source systems, CLI/TUI tooling, or infrastructure
-- 💼 Available for remote work: backend, systems, DevOps, SRE
-- 💬 Ask me about OpenBSD, Linux, NixOS, cwm, doas, Gemini, Gopher, and dotfiles
+<div style="max-width:560px;margin:24px auto 0;background:#0d0d0d;border:1px solid #262626;border-radius:14px;text-align:left;overflow:hidden">
+  <div style="padding:10px 16px;border-bottom:1px solid #262626;background:#0f0f0f">
+    <span style="color:#3f3f46;font-size:10px;letter-spacing:4px">● ● ●</span>
+  </div>
+  <pre style="margin:0;padding:18px 20px;background:#0d0d0d;font-family:'JetBrains Mono','Fira Code',monospace;font-size:13px;line-height:1.7;color:#d1d5db"><span style="color:#6b7280">$</span> cat profile.json
+{
+  <span style="color:#9ca3af">"role"</span>: <span style="color:#e5e7eb">"Backend &amp; Systems Engineer"</span>,
+  <span style="color:#9ca3af">"os"</span>: [<span style="color:#e5e7eb">"OpenBSD"</span>, <span style="color:#e5e7eb">"NixOS"</span>, <span style="color:#e5e7eb">"Arch"</span>, <span style="color:#e5e7eb">"FreeBSD"</span>],
+  <span style="color:#9ca3af">"shell"</span>: <span style="color:#e5e7eb">"ksh"</span>,
+  <span style="color:#9ca3af">"wm"</span>: <span style="color:#e5e7eb">"cwm"</span>,
+  <span style="color:#9ca3af">"focus"</span>: [<span style="color:#e5e7eb">"React"</span>, <span style="color:#e5e7eb">"TypeScript"</span>, <span style="color:#e5e7eb">"CI/CD"</span>]
+}</pre>
+</div>
+
+<p style="margin-top:24px">Currently focusing on: <strong>React</strong> · <strong>TypeScript</strong> · <strong>CI/CD</strong> · <strong>Design Patterns</strong></p>
+
+Open to collaborating on open-source systems, CLI/TUI tooling, and infrastructure.
+
+Ask me about OpenBSD, Linux, NixOS, cwm, doas, Gemini, Gopher, and dotfiles.
+
+**Available for remote work:** backend, systems, DevOps, SRE
+
+</div>
 
 <div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
 
@@ -128,27 +148,31 @@ My work centers on backend development, systems administration, and infrastructu
 
 ## Latest Blog Posts
 
-| Date | Title | Topic |
-|------|-------|-------|
-| 27 Sep 2023 | [vger + OpenBSD: Gemini server](http://dev1ls.sdf.org/blog/#gemini-vger-openbsd) | Gemini |
-| 19 Jul 2023 | [My cwm(1) dotfiles + lemonbar](http://dev1ls.sdf.org/blog/#my-cwm-openbsd) | cwm |
-| 30 Jun 2023 | [Doas My Friends!](http://dev1ls.sdf.org/blog/#doas) | Doas |
-| 18 Feb 2023 | [CWM Window Manager](http://dev1ls.sdf.org/blog/#cwm-window-manager) | CWM |
-| 07 Feb 2023 | [Awesome list TUI and CLI apps](http://dev1ls.sdf.org/blog/#awesome-tui-apps) | TUI/CLI |
+<div align="center">
 
-> **Updated automatically** via GitHub Actions (daily at 06:00 UTC)
-> **View all posts:** http://dev1ls.sdf.org/blog/
+<!--POSTS-START-->
+<p>27 Sep 2023 — <a href="http://dev1ls.sdf.org/blog/#gemini-vger-openbsd">vger + OpenBSD: Gemini server</a> <span style="color:#6b7280">· Gemini</span></p>
+<p>19 Jul 2023 — <a href="http://dev1ls.sdf.org/blog/#my-cwm-openbsd">My cwm(1) dotfiles + lemonbar</a> <span style="color:#6b7280">· cwm</span></p>
+<p>30 Jun 2023 — <a href="http://dev1ls.sdf.org/blog/#doas">Doas My Friends!</a> <span style="color:#6b7280">· Doas</span></p>
+<p>18 Feb 2023 — <a href="http://dev1ls.sdf.org/blog/#cwm-window-manager">CWM Window Manager</a> <span style="color:#6b7280">· CWM</span></p>
+<p>07 Feb 2023 — <a href="http://dev1ls.sdf.org/blog/#awesome-tui-apps">Awesome list TUI and CLI apps</a> <span style="color:#6b7280">· TUI/CLI</span></p>
+<!--POSTS-END-->
+
+<p style="color:#6b7280;font-size:12px;margin-top:20px">Updated automatically via GitHub Actions (daily at 06:00 UTC) — <a href="http://dev1ls.sdf.org/blog/">View all posts →</a></p>
+
+</div>
 
 <div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
 
 ## Philosophy
 
-> **"Keep it simple, keep it secure, keep it Unix."**
+<div align="center">
 
-- 🏗️ **Simplicity** over unnecessary complexity
-- 🔒 **Security** by default (the OpenBSD way)
-- 📚 **Documentation** as a first-class citizen
-- 🤝 **Open** and respectful collaboration
+<p style="font-size:20px;font-weight:600;color:#e5e7eb">"Keep it simple, keep it secure, keep it Unix."</p>
+
+<p style="color:#9ca3af">Simplicity · Security · Documentation · Openness</p>
+
+</div>
 
 <div align="center">
 
