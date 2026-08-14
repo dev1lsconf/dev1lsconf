@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 584" width="1200" height="584">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="584" fill="url(#bgGrad)"/>
+  <rect width="1200" height="584" fill="url(#grid)"/>
+
+  <!-- Card 1: cityflow -->
+  <g>
+    <rect x="36" y="36" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="60" y="82" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">cityflow</text>
+    <line x1="60" y1="98" x2="380" y2="98" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="60" y="126" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Barcelona Urban Intelligence</text>
+    <text x="60" y="146" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Platform — real-time urban data.</text>
+    <line x1="60" y1="196" x2="380" y2="196" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="66" cy="224" r="4" fill="#6b7280"/>
+    <text x="78" y="229" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">TypeScript</text>
+    <text x="380" y="229" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 1</text>
+  </g>
+
+  <!-- Card 2: financial-panel -->
+  <g>
+    <rect x="416" y="36" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="440" y="82" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">financial-panel</text>
+    <line x1="440" y1="98" x2="760" y2="98" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="440" y="126" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Real-time financial dashboard</text>
+    <text x="440" y="146" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">for stocks, crypto and forex.</text>
+    <line x1="440" y1="196" x2="760" y2="196" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="446" cy="224" r="4" fill="#6b7280"/>
+    <text x="458" y="229" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">Python</text>
+    <text x="760" y="229" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 1</text>
+  </g>
+
+  <!-- Card 3: elitos-trading-terminal -->
+  <g>
+    <rect x="796" y="36" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="820" y="82" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">elitos-trading-terminal</text>
+    <line x1="820" y1="98" x2="1140" y2="98" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="820" y="126" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Cyberpunk/minimalist trading</text>
+    <text x="820" y="146" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">terminal, React 19 + charts v5.</text>
+    <line x1="820" y1="196" x2="1140" y2="196" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="826" cy="224" r="4" fill="#6b7280"/>
+    <text x="838" y="229" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">TypeScript</text>
+    <text x="1140" y="229" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 1</text>
+  </g>
+
+  <!-- Card 4: 0880-ai-bot -->
+  <g>
+    <rect x="36" y="298" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="60" y="344" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">0880-ai-bot</text>
+    <line x1="60" y1="360" x2="380" y2="360" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="60" y="388" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">MCP-driven trading dashboard</text>
+    <text x="60" y="408" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">bridging AI agents + live markets.</text>
+    <line x1="60" y1="458" x2="380" y2="458" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="66" cy="486" r="4" fill="#6b7280"/>
+    <text x="78" y="491" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">Python</text>
+    <text x="380" y="491" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 0</text>
+  </g>
+
+  <!-- Card 5: la-sagrada-biblia -->
+  <g>
+    <rect x="416" y="298" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="440" y="344" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">la-sagrada-biblia</text>
+    <line x1="440" y1="360" x2="760" y2="360" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="440" y="388" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Offline PWA — Biblia Dios Habla</text>
+    <text x="440" y="408" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Hoy 1994, incl. deuterocanonical.</text>
+    <line x1="440" y1="458" x2="760" y2="458" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="446" cy="486" r="4" fill="#6b7280"/>
+    <text x="458" y="491" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">TypeScript</text>
+    <text x="760" y="491" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 1</text>
+  </g>
+
+  <!-- Card 6: tienda-informatica -->
+  <g>
+    <rect x="796" y="298" width="368" height="250" rx="14" fill="#0d0d0d" stroke="#262626" stroke-width="1"/>
+    <text x="820" y="344" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" font-weight="600" fill="#ffffff">tienda-informatica</text>
+    <line x1="820" y1="360" x2="1140" y2="360" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <text x="820" y="388" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">Mr. Robot Store — computer</text>
+    <text x="820" y="408" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#9ca3af">hardware shop with admin panel.</text>
+    <line x1="820" y1="458" x2="1140" y2="458" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="826" cy="486" r="4" fill="#6b7280"/>
+    <text x="838" y="491" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">PHP</text>
+    <text x="1140" y="491" text-anchor="end" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">★ 1</text>
+  </g>
+</svg>

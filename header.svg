@@ -1,83 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
-    <!-- Dark professional background gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0f1a"/>
-      <stop offset="50%" stop-color="#0d1423"/>
-      <stop offset="100%" stop-color="#0a0f1a"/>
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
     </linearGradient>
 
-    <!-- Subtle accent gradient for waves -->
-    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4aa" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#0099cc" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#00d4aa" stop-opacity="0.12"/>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
     </linearGradient>
 
-    <!-- Text fill gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e8f4fd"/>
-      <stop offset="100%" stop-color="#a0d8f0"/>
-    </linearGradient>
-
-    <!-- Glowing stroke filter -->
-    <filter id="glowStroke" x="-80%" y="-80%" width="260%" height="260%">
-      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="stroke"/>
-      <feGaussianBlur in="stroke" stdDeviation="4" result="blur"/>
-      <feFlood flood-color="#00d4aa" flood-opacity="0.9" result="glowColor"/>
-      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Subtitle glow filter -->
-    <filter id="subtleGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
-      <feFlood flood-color="#00d4aa" flood-opacity="0.5" result="glowColor"/>
-      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Decorative grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d4aa" stroke-width="0.3" opacity="0.08"/>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.04"/>
     </pattern>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#ffffff" flood-opacity="0.14" result="glowColor">
+        <animate attributeName="flood-opacity" values="0.10;0.22;0.10" dur="6s" repeatCount="indefinite"/>
+      </feFlood>
+      <feComposite in="glowColor" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="300" fill="url(#bgGrad)"/>
-
-  <!-- Subtle grid overlay -->
   <rect width="1200" height="300" fill="url(#grid)"/>
 
-  <!-- Wave pattern - bottom layer -->
-  <path d="M0,240 Q150,180 300,220 T600,190 T900,230 T1200,200 L1200,300 L0,300 Z" fill="url(#waveGrad)"/>
+  <!-- Top and bottom hairlines -->
+  <line x1="80" y1="1" x2="1120" y2="1" stroke="#ffffff" stroke-width="0.5" opacity="0.15"/>
+  <line x1="80" y1="299" x2="1120" y2="299" stroke="#ffffff" stroke-width="0.5" opacity="0.15"/>
 
-  <!-- Wave pattern - middle layer -->
-  <path d="M0,260 Q120,200 240,240 T480,210 T720,250 T960,220 T1200,250 L1200,300 L0,300 Z" fill="url(#waveGrad)" opacity="0.6"/>
-
-  <!-- Wave pattern - top layer -->
-  <path d="M0,280 Q100,230 200,270 T400,240 T600,280 T800,250 T1000,280 T1200,260 L1200,300 L0,300 Z" fill="url(#waveGrad)" opacity="0.4"/>
-
-  <!-- Main text: dev1ls - with glowing stroke border -->
-  <text x="600" y="135" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="72" font-weight="700" fill="url(#textGrad)" text-anchor="middle" filter="url(#glowStroke)" letter-spacing="2" paint-order="stroke fill">dev1ls</text>
-
-  <!-- Subtitle with subtle glow -->
-  <text x="600" y="185" font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="22" font-weight="400" fill="#b8d4e8" text-anchor="middle" filter="url(#subtleGlow)" letter-spacing="0.5" opacity="0.9">Unix Enthusiast  |  Backend &amp; Systems  |  OpenBSD/Linux/NixOS</text>
-
-  <!-- Terminal prompt decoration -->
-  <g font-family="'JetBrains Mono', 'Fira Code', 'Monospace'" font-size="14" fill="#00d4aa" opacity="0.5">
-    <text x="150" y="260" text-anchor="start">$ whoami</text>
-    <text x="150" y="280" text-anchor="start">&gt; dev1ls</text>
-    <text x="1050" y="260" text-anchor="end">$ uname -s</text>
-    <text x="1050" y="280" text-anchor="end">&gt; OpenBSD</text>
+  <!-- Flowing hairlines -->
+  <g fill="none" stroke="#ffffff">
+    <path d="M0,236 Q150,218 300,236 T600,236 T900,236 T1200,236 T1500,236 T1800,236 T2100,236 T2400,236" stroke-width="1" opacity="0.22">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="22s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,252 Q150,240 300,252 T600,252 T900,252 T1200,252 T1500,252 T1800,252 T2100,252 T2400,252" stroke-width="1" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="30s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,266 Q150,259 300,266 T600,266 T900,266 T1200,266 T1500,266 T1800,266 T2100,266 T2400,266" stroke-width="1" opacity="0.08">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="38s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <!-- Bottom accent line -->
-  <line x1="300" y1="295" x2="900" y2="295" stroke="#00d4aa" stroke-width="1" opacity="0.3"/>
+  <!-- Name -->
+  <text x="600" y="148" font-family="'Inter','SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="84" font-weight="700" fill="url(#textGrad)" text-anchor="middle" filter="url(#softGlow)" letter-spacing="1">dev1ls</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="194" font-family="'Inter','SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="500" fill="#9ca3af" text-anchor="middle" letter-spacing="8">BACKEND · SYSTEMS · UNIX</text>
+
+  <!-- Terminal line with blinking cursor -->
+  <text x="600" y="224" font-family="'JetBrains Mono','Fira Code',monospace" font-size="12" fill="#6b7280" text-anchor="middle" letter-spacing="1">~ $ whoami<tspan fill="#9ca3af"> ▊</tspan>
+    <animate attributeName="opacity" values="1;1;1;0.4;1" dur="6s" repeatCount="indefinite"/>
+  </text>
 </svg>

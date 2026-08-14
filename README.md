@@ -3,27 +3,29 @@
 ![Header](header.svg)
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=440&lines=Unix+Enthusiast;Backend+%26+Systems;OpenBSD%2FLinux+NixOS;DevOps+%26+SRE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=E5E7EB&center=true&vCenter=true&width=440&lines=Unix+Enthusiast;Backend+%26+Systems;OpenBSD%2FLinux+NixOS;DevOps+%26+SRE" alt="Typing SVG" />
 </p>
 
 ## Connect With Me
 
 <p align="center">
   <a href="https://github.com/dev1lsconf" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=E5E7EB" alt="GitHub"/>
   </a>
   <a href="https://x.com/dev1lsconf" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+    <img src="https://img.shields.io/badge/X-0A0A0A?style=for-the-badge&logo=x&logoColor=E5E7EB" alt="X"/>
   </a>
   <a href="https://mastodon.sdf.org/@dev1ls" target="_blank">
-    <img src="https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon"/>
+    <img src="https://img.shields.io/badge/Mastodon-0A0A0A?style=for-the-badge&logo=mastodon&logoColor=E5E7EB" alt="Mastodon"/>
   </a>
   <a href="http://dev1ls.sdf.org/blog/" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-FF6B35?style=for-the-badge&logo=rss&logoColor=white" alt="Blog"/>
+    <img src="https://img.shields.io/badge/Blog-0A0A0A?style=for-the-badge&logo=rss&logoColor=E5E7EB" alt="Blog"/>
   </a>
 </p>
 
 </div>
+
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
 
 ## About Me
 
@@ -37,6 +39,8 @@ My work centers on backend development, systems administration, and infrastructu
 - 💼 Available for remote work: backend, systems, DevOps, SRE
 - 💬 Ask me about OpenBSD, Linux, NixOS, cwm, doas, Gemini, Gopher, and dotfiles
 
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
+
 ## Technology Stack
 
 <div align="center">
@@ -44,70 +48,83 @@ My work centers on backend development, systems administration, and infrastructu
 ### Operating Systems
 
 <p>
-  <img src="https://img.shields.io/badge/OpenBSD-007396?style=for-the-badge&logo=openbsd&logoColor=white" alt="OpenBSD"/>
-  <img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/>
-  <img src="https://img.shields.io/badge/FreeBSD-000000?style=for-the-badge&logo=freebsd&logoColor=white" alt="FreeBSD"/>
+  <img src="https://img.shields.io/badge/OpenBSD-0A0A0A?style=for-the-badge&logo=openbsd&logoColor=E5E7EB" alt="OpenBSD"/>
+  <img src="https://img.shields.io/badge/NixOS-0A0A0A?style=for-the-badge&logo=nixos&logoColor=E5E7EB" alt="NixOS"/>
+  <img src="https://img.shields.io/badge/Arch_Linux-0A0A0A?style=for-the-badge&logo=arch-linux&logoColor=E5E7EB" alt="Arch Linux"/>
+  <img src="https://img.shields.io/badge/FreeBSD-0A0A0A?style=for-the-badge&logo=freebsd&logoColor=E5E7EB" alt="FreeBSD"/>
 </p>
 
 ### Shells & Scripting
 
 <p>
-  <img src="https://img.shields.io/badge/ksh-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="ksh"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/Fish-FFD500?style=for-the-badge&logo=fish-shell&logoColor=black" alt="Fish"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/POSIX_sh-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="POSIX sh"/>
+  <img src="https://img.shields.io/badge/ksh-0A0A0A?style=for-the-badge&logo=gnu-bash&logoColor=E5E7EB" alt="ksh"/>
+  <img src="https://img.shields.io/badge/Bash-0A0A0A?style=for-the-badge&logo=gnu-bash&logoColor=E5E7EB" alt="Bash"/>
+  <img src="https://img.shields.io/badge/Fish-0A0A0A?style=for-the-badge&logo=fish-shell&logoColor=E5E7EB" alt="Fish"/>
+  <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=E5E7EB" alt="Python"/>
+  <img src="https://img.shields.io/badge/POSIX_sh-0A0A0A?style=for-the-badge&logo=gnu-bash&logoColor=E5E7EB" alt="POSIX sh"/>
 </p>
 
 ### Window Managers
 
 <p>
-  <img src="https://img.shields.io/badge/cwm-000000?style=for-the-badge&logo=window-manager&logoColor=white" alt="cwm"/>
-  <img src="https://img.shields.io/badge/dwm-000000?style=for-the-badge&logo=window-manager&logoColor=white" alt="dwm"/>
-  <img src="https://img.shields.io/badge/bspwm-000000?style=for-the-badge&logo=window-manager&logoColor=white" alt="bspwm"/>
-  <img src="https://img.shields.io/badge/i3-000000?style=for-the-badge&logo=i3&logoColor=white" alt="i3"/>
+  <img src="https://img.shields.io/badge/cwm-0A0A0A?style=for-the-badge&logo=window-manager&logoColor=E5E7EB" alt="cwm"/>
+  <img src="https://img.shields.io/badge/dwm-0A0A0A?style=for-the-badge&logo=window-manager&logoColor=E5E7EB" alt="dwm"/>
+  <img src="https://img.shields.io/badge/bspwm-0A0A0A?style=for-the-badge&logo=window-manager&logoColor=E5E7EB" alt="bspwm"/>
+  <img src="https://img.shields.io/badge/i3-0A0A0A?style=for-the-badge&logo=i3&logoColor=E5E7EB" alt="i3"/>
 </p>
 
 ### Configuration & Security
 
 <p>
-  <img src="https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="Nix"/>
-  <img src="https://img.shields.io/badge/GNU_Stow-000000?style=for-the-badge&logo=gnu&logoColor=white" alt="GNU Stow"/>
-  <img src="https://img.shields.io/badge/doas-000000?style=for-the-badge&logo=openbsd&logoColor=white" alt="doas"/>
-  <img src="https://img.shields.io/badge/unveil-000000?style=for-the-badge&logo=openbsd&logoColor=white" alt="unveil"/>
-  <img src="https://img.shields.io/badge/pledge-000000?style=for-the-badge&logo=openbsd&logoColor=white" alt="pledge"/>
+  <img src="https://img.shields.io/badge/Nix-0A0A0A?style=for-the-badge&logo=nixos&logoColor=E5E7EB" alt="Nix"/>
+  <img src="https://img.shields.io/badge/GNU_Stow-0A0A0A?style=for-the-badge&logo=gnu&logoColor=E5E7EB" alt="GNU Stow"/>
+  <img src="https://img.shields.io/badge/doas-0A0A0A?style=for-the-badge&logo=openbsd&logoColor=E5E7EB" alt="doas"/>
+  <img src="https://img.shields.io/badge/unveil-0A0A0A?style=for-the-badge&logo=openbsd&logoColor=E5E7EB" alt="unveil"/>
+  <img src="https://img.shields.io/badge/pledge-0A0A0A?style=for-the-badge&logo=openbsd&logoColor=E5E7EB" alt="pledge"/>
 </p>
 
 ### Protocols & Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Gemini-007396?style=for-the-badge&logo=gemini&logoColor=white" alt="Gemini"/>
-  <img src="https://img.shields.io/badge/Gopher-000000?style=for-the-badge&logo=gopher&logoColor=white" alt="Gopher"/>
-  <img src="https://img.shields.io/badge/HTTP%2FHTTPS-000000?style=for-the-badge&logo=http&logoColor=white" alt="HTTP/HTTPS"/>
-  <img src="https://img.shields.io/badge/twtxt-000000?style=for-the-badge&logo=rss&logoColor=white" alt="twtxt"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Podman-892C0B?style=for-the-badge&logo=podman&logoColor=white" alt="Podman"/>
-  <img src="https://img.shields.io/badge/qemu-000000?style=for-the-badge&logo=qemu&logoColor=white" alt="qemu"/>
+  <img src="https://img.shields.io/badge/Gemini-0A0A0A?style=for-the-badge&logo=gemini&logoColor=E5E7EB" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/Gopher-0A0A0A?style=for-the-badge&logo=gopher&logoColor=E5E7EB" alt="Gopher"/>
+  <img src="https://img.shields.io/badge/HTTP%2FHTTPS-0A0A0A?style=for-the-badge&logo=http&logoColor=E5E7EB" alt="HTTP/HTTPS"/>
+  <img src="https://img.shields.io/badge/twtxt-0A0A0A?style=for-the-badge&logo=rss&logoColor=E5E7EB" alt="twtxt"/>
+  <img src="https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=E5E7EB" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-0A0A0A?style=for-the-badge&logo=github-actions&logoColor=E5E7EB" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Podman-0A0A0A?style=for-the-badge&logo=podman&logoColor=E5E7EB" alt="Podman"/>
+  <img src="https://img.shields.io/badge/qemu-0A0A0A?style=for-the-badge&logo=qemu&logoColor=E5E7EB" alt="qemu"/>
 </p>
 
 </div>
+
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
 
 ## Featured Projects
 
 <div align="center">
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [cityflow](https://github.com/dev1lsconf/cityflow) | Barcelona Urban Intelligence Platform — real-time map with mobility, weather, and urban data. | TypeScript |
-| [financial-panel](https://github.com/dev1lsconf/financial-panel) | Real-time financial dashboard covering stocks, crypto, and forex with technical analysis. | Python |
-| [elitos-trading-terminal](https://github.com/dev1lsconf/elitos-trading-terminal) | Cyberpunk/minimalist trading terminal built with Vite + React 19, lightweight-charts v5, and a Flask + pandas/numpy backend. | TypeScript |
-| [0880-ai-bot](https://github.com/dev1lsconf/0880-ai-bot) | MCP-driven multi-market trading dashboard bridging AI agents with live market data, paper trading, and backtesting/Monte Carlo engines. | Python |
-| [la-sagrada-biblia](https://github.com/dev1lsconf/la-sagrada-biblia) | Offline PWA for reading and searching the Biblia Dios Habla Hoy 1994 in Spanish, including deuterocanonical books. | TypeScript |
-| [tienda-informatica](https://github.com/dev1lsconf/tienda-informatica) | Mr. Robot Store — computer hardware store with an administrative panel. | PHP |
+<img src="projects.svg" alt="Featured projects"/>
+
+<p>
+  <a href="https://github.com/dev1lsconf?tab=repositories">View all repositories →</a>
+</p>
 
 </div>
+
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="stats.svg" alt="GitHub statistics"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dev1lsconf&hide_border=true&background=00000000&currStreakNum=FFFFFF&sideNums=9CA3AF&currStreakLabel=FFFFFF&sideLabels=6B7280&dates=6B7280&fire=E5E7EB&ring=9CA3AF" width="60%"/>
+
+</div>
+
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
 
 ## Latest Blog Posts
 
@@ -122,6 +139,8 @@ My work centers on backend development, systems administration, and infrastructu
 > **Updated automatically** via GitHub Actions (daily at 06:00 UTC)
 > **View all posts:** http://dev1ls.sdf.org/blog/
 
+<div style="height:1px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,0.25),rgba(255,255,255,0));margin:28px 0;"></div>
+
 ## Philosophy
 
 > **"Keep it simple, keep it secure, keep it Unix."**
@@ -130,8 +149,6 @@ My work centers on backend development, systems administration, and infrastructu
 - 🔒 **Security** by default (the OpenBSD way)
 - 📚 **Documentation** as a first-class citizen
 - 🤝 **Open** and respectful collaboration
-
----
 
 <div align="center">
 
